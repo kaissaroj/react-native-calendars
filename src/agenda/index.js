@@ -481,11 +481,7 @@ export default class AgendaView extends Component {
             {useNativeDriver: true}
           )}
         >
-          <View
-            testID={AGENDA_CALENDAR_KNOB}
-            style={{height: agendaHeight + KNOB_HEIGHT}}
-            onLayout={this.onScrollPadLayout}
-          />
+
         </Animated.ScrollView>
       </View>
     );
